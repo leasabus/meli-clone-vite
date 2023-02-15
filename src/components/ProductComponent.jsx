@@ -31,7 +31,7 @@ export const ProductComponent = ({ images }) => {
                     alt="image" />
             </div>
 
-            <div className='w-[300px] '>
+            <div className='w-[310px] flex flex-col p-4 ml-12'>
                 <div className='flex flex-row justify-between gap-2 '>
                     <div className='text-textGray'>
                         <span>Nuevo</span>
@@ -50,12 +50,37 @@ export const ProductComponent = ({ images }) => {
                     <span className='text-blue text-sm'>(11)</span>
                 </div>
 
-                <div className='flex flex-row items-center'>
+                <div className='flex flex-row items-center gap-2 mt-2'>
                     <button className='bg-orange text-white rounded text-sm '>MÁS VENDIDO</button>
                     <span className='text-blue text-sm'>16º en notebooks</span>
                 </div>
+                <span className='line-through mt-4'>229.999$</span>
 
-                <span className='line-through'>229.999</span>
+                <span className='text-4xl font-normal'>240.000$</span>
+
+                <span>Pagá en cuotas</span>
+
+                <span className='text-blue text-sm'>Ver los medios de pago</span>
+
+                <div className='flex flex-col items-center justify-center text-start text-sm gap-2'>
+                    <span className='mt-6 font-semibold text-sm'>Lo que tenes que saber de este producto</span>
+                    <ul className='flex flex-col gap-2 list-disc ml-5'>
+                        <li>Procesador Intel Core i7</li>
+                        <li>Memoria RAM de 8GB</li>
+                        <li>Resolución de 1366x768 PX</li>
+                        <li>Es antirreflejo</li>
+                        <li>Placa de video Intel Iris Plus Graphics G7</li>
+                        <li>Cuenta con 3 puertos USB y puerto HDMI</li>
+                        <li>Incluye lector de tarjeta de memoria</li>
+                    </ul>
+                </div>
+
+                <span className='text-blue mt-4 text-sm'>Ver características</span>
+                <div className='flex flex-col mt-8 text-sm'>
+                    <span>Opciones de compra:</span>
+
+                    <span className='text-blue '>4 productos nuevos desde 215.000$</span>
+                </div>
 
             </div>
 
