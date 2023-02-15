@@ -9,7 +9,7 @@ import { IoBagCheckOutline } from 'react-icons/io5';
 
 export const ProductInformation = () => {
     return (
-        <div className=' w-[300px] flex flex-col h-auto items-start justify-start border-solid border-[0.5px] border-borderColor border-opacity-40 rounded p-4'>
+        <div className=' w-[300px] flex flex-col h-auto items-center md:items-start justify-start border-solid border-[0.5px] border-borderColor border-opacity-40 rounded p-4'>
             <div className='flex flex-col text-sm items-start justify-start'>
                 <div className='flex flex-row items-center gap-2 text-green2'>
                     <BsTruck size={20} />

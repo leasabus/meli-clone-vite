@@ -8,8 +8,8 @@ export const ProductComponent = ({ images }) => {
 
 
     return (
-        <div className='bg-white flex flex-row gap-10'>
-            <div className='flex flex-col  top-30 left-12 gap-6 cursor-pointer p-2 '>
+        <div className='bg-white flex flex-col md:flex-row gap-10'>
+            <div className='flex flex-row items-center justify-center md:items-start md:justify-start  md:flex-col  top-30 left-12 gap-6 cursor-pointer p-2 '>
                 {
                     images.map((image) => (
                         <img
@@ -26,13 +26,13 @@ export const ProductComponent = ({ images }) => {
                 }
             </div>
 
-            <div className='w-[350px] h-[350px]  mt-32 ' >
+            <div className='w-[300px] md:w-[350px] md:h-[350px] mt-20 md:mt-32  ' >
                 <img src={selectedImage}
                     alt="image" />
             </div>
 
-            <div className='w-[335px] flex flex-col p-4 ml-10'>
-                <div className='flex flex-row justify-between gap-2 '>
+            <div className=' w-[250px] md:w-[335px] flex flex-col p-4 ml-10 items-center md:items-start text-center '>
+                <div className='flex flex-row justify-between gap-4 '>
                     <div className='text-textGray'>
                         <span>Nuevo</span>
                         <span>|</span>
@@ -50,8 +50,8 @@ export const ProductComponent = ({ images }) => {
                     <span className='text-blue text-sm'>(11)</span>
                 </div>
 
-                <div className='flex flex-row items-center gap-2 mt-2'>
-                    <button className='bg-orange text-white rounded text-sm '>MÁS VENDIDO</button>
+                <div className='flex flex-col md:flex-row items-center gap-2 mt-2'>
+                    <button className='bg-orange text-white rounded text-sm p-0.5 '>MÁS VENDIDO</button>
                     <span className='text-blue text-sm'>16º en notebooks</span>
                 </div>
                 <span className='line-through mt-4'>229.999$</span>

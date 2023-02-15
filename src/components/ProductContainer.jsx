@@ -9,7 +9,7 @@ import { ProductInformation } from './ProductInformation';
 
 export const ProductContainer = () => {
     return (
-        <div className='h-full max-w-[1200px] flex-row gap-10 shadow-md bg-white  m-auto px-8 py-4 flex '>
+        <div className='h-full max-w-[1200px] flex-col md:flex-row gap-10 shadow-md bg-white  m-auto px-8 py-4 flex '>
             <ProductComponent images={[image1, image2, image3]} />
             <ProductInformation />
 
