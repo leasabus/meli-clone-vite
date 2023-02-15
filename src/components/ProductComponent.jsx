@@ -8,8 +8,8 @@ export const ProductComponent = ({ images }) => {
 
 
     return (
-        <div className='bg-white flex flex-row gap-4'>
-            <div className='flex flex-col absolute top-30 left-12 gap-6 cursor-pointer p-2 '>
+        <div className='bg-white flex flex-row gap-10'>
+            <div className='flex flex-col  top-30 left-12 gap-6 cursor-pointer p-2 '>
                 {
                     images.map((image) => (
                         <img
@@ -17,7 +17,7 @@ export const ProductComponent = ({ images }) => {
                             src={image}
                             alt={image}
                             width={60}
-                            className="border  border-borderColor rounded hover:border-blue hover:border-2"
+                            className="border  border-borderColor rounded hover:border-blue hover:border-1"
                             onClick={() => setSelectedImage(image)}
                             onLoad={() => setSelectedImage(image)}
 
@@ -26,12 +26,12 @@ export const ProductComponent = ({ images }) => {
                 }
             </div>
 
-            <div className='w-[350px] h-[350px] mt-20' >
+            <div className='w-[350px] h-[350px]  mt-32 ' >
                 <img src={selectedImage}
                     alt="image" />
             </div>
 
-            <div className='w-[310px] flex flex-col p-4 ml-12'>
+            <div className='w-[335px] flex flex-col p-4 ml-10'>
                 <div className='flex flex-row justify-between gap-2 '>
                     <div className='text-textGray'>
                         <span>Nuevo</span>
@@ -84,7 +84,7 @@ export const ProductComponent = ({ images }) => {
 
             </div>
 
-            <ProductInformation />
+
 
         </div>
     )
