@@ -4,6 +4,7 @@ import { IoIosNotificationsOutline } from 'react-icons/io'
 import { CiLocationOn } from 'react-icons/ci'
 import { HiOutlineUserCircle } from 'react-icons/hi2'
 import { BsCart2 } from 'react-icons/bs'
+import logo from '../assets/mercado-libre-logo-6.png'
 
 
 export const NavBar = () => {
@@ -13,11 +14,11 @@ export const NavBar = () => {
 
             <div className='flex bg-yellow flex-row items-center justify-between px-8 py-2 ' >
                 <div className='flex flex-col items-start gap-6'>
-                    <img src="./src/assets/mercadolibre.png" width={48} alt="#" className='' />
+                    <img src={logo} width={140} height={100} alt="#" className='' />
                     <div className='flex flex-row gap-2 items-center'>
                         <CiLocationOn size={28} className="opacity-60 " />
                         <div className='flex flex-col items-start '>
-                            <span className=' text-black '>Ingresa tu domicilio</span>
+                            <span className=' text-black text-sm '>Ingresa tu domicilio</span>
 
                         </div>
                     </div>

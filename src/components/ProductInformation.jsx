@@ -1,4 +1,8 @@
 import React from 'react'
+import { BuyOptions } from './productInformation/BuyOptions'
+import { SellerInformation } from './productInformation/SellerInformation';
+
+//react icons
 import { BsTruck } from 'react-icons/bs';
 import { CiLocationOn } from 'react-icons/ci';
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md';
@@ -6,6 +10,8 @@ import { BsArrowReturnLeft } from 'react-icons/bs';
 import { HiOutlineShieldCheck } from 'react-icons/hi';
 import { SlTrophy } from 'react-icons/sl';
 import { IoBagCheckOutline } from 'react-icons/io5';
+import { Payments } from './productInformation/Payments';
+import { PromotedProducts } from './productInformation/PromotedProducts';
 
 export const ProductInformation = () => {
     return (
@@ -21,7 +27,7 @@ export const ProductInformation = () => {
                     <span>4 h 9min</span>
                     <div className='flex flex-row text-blue gap-1'>
                         <CiLocationOn size={18} />
-                        <span className=' font-semibold'>Enviar a Sadi Carnot 373</span>
+                        <span >Enviar a Sadi Carnot 373</span>
                     </div>
                 </div>
 
@@ -45,8 +51,8 @@ export const ProductInformation = () => {
             </div>
 
             <div className='mt-6 flex flex-col gap-2 items-center justify-center'>
-                <button className='bg-blue text-white w-[250px] p-3 rounded font-bold opacity-95 '>Comprar ahora</button>
-                <button className='text-blue w-[250px] p-3 rounded font-bold '>Agregar al carrito</button>
+                <button className='bg-blue text-white w-[250px] p-3 rounded  opacity-95 '>Comprar ahora</button>
+                <button className='text-blue w-[250px] p-3 rounded hover:bg-blue hover:bg-opacity-20  '>Agregar al carrito</button>
             </div>
 
             <div className='flex flex-col mt-4 text-sm gap-4 w-[260px] '>
@@ -69,7 +75,10 @@ export const ProductInformation = () => {
                 </div>
             </div>
 
-
+            <SellerInformation />
+            <BuyOptions />
+            <Payments />
+            <PromotedProducts />
         </div>
     )
 }

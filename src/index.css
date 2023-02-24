@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body,
 html {
     background-color: #e9ecef;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
 
 }
