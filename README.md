@@ -17,3 +17,5 @@ Las tecnologías que voy a utilizar aquí son:
 
 ✔ Vite
 
+
+Espero les guste, sean libres de utilizar y modificar el proyecto como les guste!
