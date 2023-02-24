@@ -10,6 +10,10 @@ Las tecnologías que voy a utilizar aquí son:
 
 
 ✔ TailwindCss
+
+
 ✔ Css
+
+
 ✔ Vite
 
