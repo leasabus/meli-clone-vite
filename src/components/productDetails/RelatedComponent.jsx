@@ -1,9 +1,9 @@
 import React from 'react'
-import { products } from '../../data/data';
+
 
 
 export const RelatedComponent = ({ product, id }) => {
-    const imageUrl = `./src/assets/products/${id}.jpg`;
+    const imageUrl = `./assets/products/${id}.jpg`;
     return (
 
         <>

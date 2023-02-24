@@ -1,9 +1,7 @@
 import React from 'react'
 import { CiMedal } from 'react-icons/ci';
-import { BiMessageCheck } from 'react-icons/bi';
-import { BsStopwatch } from 'react-icons/bs';
-import icon1 from '../../assets/seller/message-positive.svg';
-import icon2 from '../../assets/seller/time-positive.svg';
+import icon1 from '../../../public/assets/seller/message-positive.svg';
+import icon2 from '../../../public/assets/seller/time-positive.svg';
 
 export const SellerInformation = () => {
     return (

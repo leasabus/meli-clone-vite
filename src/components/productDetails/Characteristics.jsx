@@ -1,10 +1,10 @@
 import React from 'react'
-import icon1 from '../../assets/con_pantalla_tactil_note.svg'
-import icon2 from '../../assets/battery.svg'
-import icon3 from '../../assets/pantalla.svg'
-import icon4 from '../../assets/ram.svg'
-import icon5 from '../../assets/resolucion.svg'
-import icon6 from '../../assets/huella.svg'
+import icon1 from '../../../public/assets/con_pantalla_tactil_note.svg'
+import icon2 from '../../../public/assets/battery.svg'
+import icon3 from '../../../public/assets/pantalla.svg'
+import icon4 from '../../../public/assets/ram.svg'
+import icon5 from '../../../public/assets/resolucion.svg'
+import icon6 from '../../../public/assets/huella.svg'
 import { MdKeyboardArrowDown } from 'react-icons/md'
 
 export const Characteristics = () => {

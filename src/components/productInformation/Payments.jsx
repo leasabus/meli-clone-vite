@@ -1,17 +1,17 @@
 import React from 'react'
-import logo from '../../assets/payments/mercado-credito.svg'
-import card1 from '../../assets/payments/visa.svg'
-import card2 from '../../assets/payments/american.svg'
-import card3 from '../../assets/payments/naranja.svg'
-import card4 from '../../assets/payments/master-card.svg'
+import logo from '../../../public/assets/payments/mercado-credito.svg'
+import card1 from '../../../public/assets/payments/visa.svg'
+import card2 from '../../../public/assets/payments/american.svg'
+import card3 from '../../../public/assets/payments/naranja.svg'
+import card4 from '../../../public/assets/payments/master-card.svg'
 
-import debito1 from '../../assets/payments/visa-debito.svg'
-import debito2 from '../../assets/payments/master-debito.svg'
-import debito3 from '../../assets/payments/cabal-debito.svg'
-import debito4 from '../../assets/payments/debito2.svg'
+import debito1 from '../../../public/assets/payments/visa-debito.svg'
+import debito2 from '../../../public/assets/payments/master-debito.svg'
+import debito3 from '../../../public/assets/payments/cabal-debito.svg'
+import debito4 from '../../../public/assets/payments/debito2.svg'
 
-import efectivo1 from '../../assets/payments/rapipago.svg'
-import efectivo2 from '../../assets/payments/pago-facil.svg'
+import efectivo1 from '../../../public/assets/payments/rapipago.svg'
+import efectivo2 from '../../../public/assets/payments/pago-facil.svg'
 
 
 export const Payments = () => {

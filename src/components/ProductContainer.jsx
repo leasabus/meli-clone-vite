@@ -1,9 +1,9 @@
 import React from 'react'
 import { ProductComponent } from './ProductComponent'
-import image1 from '../assets/hp1.jpg';
-import image2 from '../assets/hp2.png';
-import image3 from '../assets/hp3.jpg';
-import image4 from '../assets/hp4.jpg'
+import image1 from '../../public/assets/hp1.jpg';
+import image2 from '../../public/assets/hp2.png';
+import image3 from '../../public/assets/hp3.jpg';
+import image4 from '../../public/assets/hp4.jpg';
 import { ProductInformation } from './ProductInformation';
 import { SimilarProducts } from './SimilarProducts';
 

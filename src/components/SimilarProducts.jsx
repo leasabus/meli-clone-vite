@@ -1,8 +1,8 @@
 import React from 'react'
-import image1 from '../assets/products/1.jpg';
-import image2 from '../assets/products/2.jpg';
-import image3 from '../assets/products/3.jpg';
-import image4 from '../assets/products/4.jpg';
+import image1 from '../../public/assets/products/1.jpg';
+import image2 from '../../public/assets/products/2.jpg';
+import image3 from '../../public/assets/products/3.jpg';
+import image4 from '../../public/assets/products/4.jpg';
 import { BsStarFill, BsStarHalf } from 'react-icons/bs'
 
 
