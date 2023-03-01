@@ -18,8 +18,8 @@ export const ProductContainer = () => {
                     <ProductInformation />
                 </div>
             </div>
-
             <SimilarProducts />
+
 
 
 

@@ -1,0 +1,4 @@
+--en mobile sin border
+--container mas grande en mobile(del mismo ancho que el del product)
+--seccion coments
+--alguna feature nueva
